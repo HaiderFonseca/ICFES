@@ -24,8 +24,12 @@
 1. Usar el script `download_chunks.py` para descargar los datos paginados desde el API de `datos.gov.co`.
 2. Manualmente subir todos los archivos CSV generados al bucket de entrada de S3.
 
-![Download Chunks](./images/download-chunks.png)
+![Uploaded Chunks](./images/uploaded-chunks.png)
 
 ## Crear una consulta en Athena
 
+1. Seleccionar el workgroup `icfes-workgroup` y la base de datos `icfes-db`.
+2. Crear una nueva consulta SQL para obtener los datos de la tabla creada en Glue.
+3. Ejecutar la consulta y verificar que los resultados son correctos.
 
+![Athena Query](./images/athena-query.png)
