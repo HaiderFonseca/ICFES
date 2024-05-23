@@ -44,3 +44,16 @@ Athena se puede usar como una primera aproximación para explorar los datos. Por
 4. Ejecutar el Job y verificar que los resultados son correctos. Después, exportar los datos desde Athena.
 
 ![Glue ETL Job](./images/glue-etl-job.png)
+
+## Subir los datos limpios a RDS
+
+1. Crear una instancia de RDS en AWS.
+2. Crear una base de datos en la instancia de RDS.
+3. Crear una tabla en la base de datos de RDS con la estructura de los datos limpios `prod_ddl.sql`.
+4. Subir los datos limpios a la base de datos de RDS.
+
+![RDS Data](./images/rds-data.png)
+
+## Procesamiento de datos ad-hoc
+
+Utilizamos el cuaderno `further_data_processing.ipynb` para realizar un procesamiento final sobre los datos, según las necesidades que surjan durante el análisis exploratorio de los datos y el modelado de los datos. Debido a su naturaleza más experimental, este procesamiento se realizará sobre los cuadernos que requieran el preprocesamiento, intentando así dejar los datos limpios de los pasos anteriores como una fuente de la verdad absoluta e inmutable.
