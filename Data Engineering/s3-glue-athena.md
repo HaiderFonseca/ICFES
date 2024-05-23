@@ -32,4 +32,15 @@
 2. Crear una nueva consulta SQL para obtener los datos de la tabla creada en Glue.
 3. Ejecutar la consulta y verificar que los resultados son correctos.
 
+Athena se puede usar como una primera aproximación para explorar los datos. Por ejemplo, se puede usar para verificar la consistencia de los datos, sus rangos de valores, sus tipos de datos y la cantidad de valores nulos. Usamos esta herramienta como base para definir el preprocesamiento de datos explicado en la siguiente sección.
+
 ![Athena Query](./images/athena-query.png)
+
+## Crear un ETL Job en Glue
+
+1. Crear un nuevo Job de tipo Spark en Glue.
+2. Asociar el Job con la base de datos `icfes-db` y la tabla creada en Glue.
+3. Crear un nuevo script de Spark en Python que realice el proceso de transformación de los datos (`icfes-ETL.py`).
+4. Ejecutar el Job y verificar que los resultados son correctos. Después, exportar los datos desde Athena.
+
+![Glue ETL Job](./images/glue-etl-job.png)
