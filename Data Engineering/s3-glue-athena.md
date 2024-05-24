@@ -54,6 +54,10 @@ Athena se puede usar como una primera aproximación para explorar los datos. Por
 
 ![RDS Data](./images/rds-data.png)
 
+## Vista Materializada de Colegios
+
+Dada la necesidad de realizar un análisis específico sobre los colegios, se crea una vista materializada en la base de datos de RDS que contiene la información de los colegios. Esta vista materializada se crea a partir de la tabla de datos limpios, no se espera que cambie con frecuencia y se puede utilizar para realizar consultas más rápidas sobre los colegios. Además, facilita el trabajo de los analistas de datos al tener una vista preprocesada mucho más compacta de los datos.
+
 ## Procesamiento de datos ad-hoc
 
 Utilizamos el cuaderno `further_data_processing.ipynb` para realizar un procesamiento final sobre los datos, según las necesidades que surjan durante el análisis exploratorio de los datos y el modelado de los datos. Debido a su naturaleza más experimental, este procesamiento se realizará sobre los cuadernos que requieran el preprocesamiento, intentando así dejar los datos limpios de los pasos anteriores como una fuente de la verdad absoluta e inmutable.
