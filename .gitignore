@@ -262,3 +262,5 @@ $RECYCLE.BIN/
 
 # Don't commit data files
 *.csv
+
+mlruns/
