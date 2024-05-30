@@ -1,0 +1,91 @@
+{
+    "examen_periodo": [
+        {"value": 1, "label": "Primer Semestre"},
+        {"value": 2, "label": "Segundo Semestre"}
+    ],
+    "colegio_area": [
+        {"value": "DESCONOCIDO", "label": "Desconocido"},
+        {"value": "RURAL", "label": "Rural"},
+        {"value": "URBANO", "label": "Urbano"}
+    ],
+    "colegio_bilingue": [
+        {"value": "DESCONOCIDO", "label": "Desconocido"},
+        {"value": "N", "label": "No"},
+        {"value": "S", "label": "Sí"}
+    ],
+    "colegio_calendario": [
+        {"value": "DESCONOCIDO", "label": "Desconocido"},
+        {"value": "A", "label": "A"},
+        {"value": "B", "label": "B"},
+        {"value": "OTRO", "label": "Otro"}
+    ],
+    "colegio_caracter": [
+        {"value": "DESCONOCIDO", "label": "Desconocido"},
+        {"value": "ACADÉMICO", "label": "Académico"},
+        {"value": "TÉCNICO", "label": "Técnico"},
+        {"value": "TÉCNICO/ACADÉMICO", "label": "Técnico/Académico"},
+        {"value": "NO APLICA", "label": "No Aplica"}
+    ],
+    "colegio_departamento": [
+        {"value": "DESCONOCIDO", "label": "Desconocido"},
+        {"value": "AMAZONAS", "label": "Amazonas"},
+        {"value": "ANTIOQUIA", "label": "Antioquia"},
+        {"value": "ARAUCA", "label": "Arauca"},
+        {"value": "ATLANTICO", "label": "Atlántico"},
+        {"value": "BOGOTA", "label": "Bogotá"},
+        {"value": "BOGOTÁ", "label": "Bogotá"},
+        {"value": "BOLIVAR", "label": "Bolívar"},
+        {"value": "BOYACA", "label": "Boyacá"},
+        {"value": "CALDAS", "label": "Caldas"},
+        {"value": "CAQUETA", "label": "Caquetá"},
+        {"value": "CASANARE", "label": "Casanare"},
+        {"value": "CAUCA", "label": "Cauca"},
+        {"value": "CESAR", "label": "Cesar"},
+        {"value": "CHOCO", "label": "Chocó"},
+        {"value": "CORDOBA", "label": "Córdoba"},
+        {"value": "CUNDINAMARCA", "label": "Cundinamarca"},
+        {"value": "GUAINIA", "label": "Guainía"},
+        {"value": "GUAVIARE", "label": "Guaviare"},
+        {"value": "HUILA", "label": "Huila"},
+        {"value": "LA GUAJIRA", "label": "La Guajira"},
+        {"value": "MAGDALENA", "label": "Magdalena"},
+        {"value": "META", "label": "Meta"},
+        {"value": "NARIÑO", "label": "Nariño"},
+        {"value": "NORTE SANTANDER", "label": "Norte de Santander"},
+        {"value": "PUTUMAYO", "label": "Putumayo"},
+        {"value": "QUINDIO", "label": "Quindío"},
+        {"value": "RISARALDA", "label": "Risaralda"},
+        {"value": "SAN ANDRES", "label": "San Andrés"},
+        {"value": "SANTANDER", "label": "Santander"},
+        {"value": "SUCRE", "label": "Sucre"},
+        {"value": "TOLIMA", "label": "Tolima"},
+        {"value": "VALLE", "label": "Valle del Cauca"},
+        {"value": "VAUPES", "label": "Vaupés"},
+        {"value": "VICHADA", "label": "Vichada"}
+    ],
+    "colegio_genero": [
+        {"value": "DESCONOCIDO", "label": "Desconocido"},
+        {"value": "FEMENINO", "label": "Femenino"},
+        {"value": "MASCULINO", "label": "Masculino"},
+        {"value": "MIXTO", "label": "Mixto"}
+    ],
+    "colegio_jornada": [
+        {"value": "DESCONOCIDO", "label": "Desconocido"},
+        {"value": "COMPLETA", "label": "Completa"},
+        {"value": "MAÑANA", "label": "Mañana"},
+        {"value": "NOCHE", "label": "Noche"},
+        {"value": "SABATINA", "label": "Sabatina"},
+        {"value": "TARDE", "label": "Tarde"},
+        {"value": "UNICA", "label": "Única"}
+    ],
+    "colegio_naturaleza": [
+        {"value": "DESCONOCIDO", "label": "Desconocido"},
+        {"value": "NO OFICIAL", "label": "No Oficial"},
+        {"value": "OFICIAL", "label": "Oficial"}
+    ],
+    "estudiante_genero": [
+        {"value": "DESCONOCIDO", "label": "Desconocido"},
+        {"value": "F", "label": "Femenino"},
+        {"value": "M", "label": "Masculino"}
+    ]
+}
