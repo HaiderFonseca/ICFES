@@ -1,0 +1,224 @@
+:root {
+  --Background: #59a5d8;
+  --Card: #ffffff;
+  --Border: #282d33;
+  --Primary: #386fa4;
+  --Text-Primary: #333333;
+  --Text-Opaque: #c1c2c5;
+  --Text-Light: #000000;
+  --shadow: rgba(181, 227, 247, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", "Roboto", sans-serif;
+  background-color: var(--Background);
+}
+
+.card {
+  background: var(--Card); /* Light background */
+  border-radius: 10px; /* Soft corners as in the control design */
+  box-shadow: 0 4px 8px rgba(5, 5, 5, 0.388); /* Shadow for depth */
+  color: #b4afaf; /* Darker text for contrast */
+  padding: 16px 8px; /* Padding unchanged */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  color: var(--Card);
+  font-family: "Open Sans", "Roboto", sans-serif;
+  background-color: var(--Primary);
+  padding: 8px 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.header-title h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header-title p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.header-logo {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.header-logo img {
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  height: 100%;
+}
+
+.main-graphs {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+  width: 100%;
+}
+
+.main-graphs .card {
+  width: 100%;
+  height: 100%;
+  padding: 16px 8px;
+}
+
+.main-graphs h2 {
+  color: var(--Text-Primary);
+  border-bottom: 2px solid var(--Primary);
+  padding-bottom: 8px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.main-graphs p {
+  color: var(--Text-Opaque);
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.main-models-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 8px 0px;
+}
+
+.main-models {
+  min-height: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.main-models-container h2 {
+  color: var(--Text-Primary);
+  border-bottom: 2px solid var(--Primary);
+  padding-bottom: 8px;
+  text-align: center;
+  font-weight: normal;
+  width: 100%;
+}
+
+.model-container {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.model-container h3 {
+  color: var(--Text-Light);
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.model-container h3::after {
+  content: "";
+  width: 80%;
+  margin: auto;
+  display: block;
+  border-bottom: 2px solid var(--Primary);
+  padding-bottom: 4px;
+}
+
+.model-container p {
+  color: var(--Text-Opaque);
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.model-container p:first-of-type {
+  margin-bottom: 20px;
+}
+
+.plot-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ml-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.footer-container p {
+  color: var(--Card);
+  font-size: 12px;
+  text-align: center;
+}
+
+.dash-dropdown .Select-control {
+  border-color: var(--Primary) !important;
+}
+
+.gauge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.gauge-container .dash-graph {
+  flex-grow: 1;
+}
