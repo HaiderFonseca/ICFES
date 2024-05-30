@@ -1,0 +1,23 @@
+CREATE TABLE datos (
+    periodo VARCHAR(5),
+    colegio_area VARCHAR(10),
+    colegio_bilingue VARCHAR(1),
+    colegio_calendario VARCHAR(10),
+    colegio_caracter VARCHAR(20),
+    colegio_departamento VARCHAR(50),
+    colegio_genero VARCHAR(10),
+    colegio_jornada VARCHAR(10),
+    colegio_municipio VARCHAR(50),
+    colegio_naturaleza VARCHAR(20),
+    colegio_nombre VARCHAR(100),
+    estudiante_departamento VARCHAR(50),
+    estudiante_fechanacimiento DATE,
+    estudiante_genero VARCHAR(1),
+    estudiante_municipio VARCHAR(50),
+    puntaje_ingles NUMERIC(5, 1),
+    puntaje_matematicas NUMERIC(5, 1),
+    puntaje_sociales_ciudadanas NUMERIC(5, 1),
+    puntaje_ciencias_naturales NUMERIC(5, 1),
+    puntaje_lectura_critica NUMERIC(5, 1),
+    puntaje_global NUMERIC(5, 1)
+);
